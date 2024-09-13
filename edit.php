@@ -38,7 +38,7 @@
                     <option value="Crime" <?php if($row["type"]=="Crime"){echo "selected";} ?>>Crime</option>
                     <option value="Fantasy" <?php if($row["type"]=="Fantasy"){echo "selected";} ?>>Fantasy</option>
                     <option value="Horror" <?php if($row["type"]=="Horror"){echo "selected";} ?>>Horror</option>
-                    <option value="Horror" <?php if($row["type"]=="Money management"){echo "selected";} ?>>Money management</option>
+                    <option value="Money management" <?php if($row["type"]=="Money management"){echo "selected";} ?>>Money management</option>
                 </select>
             </div>
             <div class="form-element my-4">
